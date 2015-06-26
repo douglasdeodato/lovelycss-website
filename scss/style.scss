@@ -1,6 +1,9 @@
 // Load all modules
 
 // Vendor CSS
+@import "vendor/bootstrap.min";
+@import "vendor/bootstrap-theme";
+
 
 // Load helpers
 @import "helpers/clearfix";
@@ -17,4 +20,4 @@
 // Load core
 @import "core/reset";
 @import "core/typography";
-@import "core/media-query";
+@import "core/media-querie";
