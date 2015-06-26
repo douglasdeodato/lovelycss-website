@@ -1,0 +1,39 @@
+/*********************************************************************
+*  =Header
+
+legend:
+$bc = base color;
+*********************************************************************/
+
+
+$bb:#9e525f;
+$white:#fff;
+$heart-color:#9e525f;
+
+.navbar-lovelycss {
+  background-color:$bb;
+  background-repeat: repeat-x;
+}
+
+.logo-lovelycss{
+	color:$white;
+	padding:15px 15px;
+	float:left;
+}
+
+.ls-2x {
+  font-size: 0.8em;
+}
+.fa-heart {
+	color:$heart-color;
+}
+
+.jumbotron h1, .jumbotron .h1 .logo {
+  font-size: 20em; /* 320px ÷ 16px */
+  line-height: 1.3125em; /* 42px ÷ 32px */
+  color: $white;
+}
+
+.jumbotron {
+	background-color:#f48e9c;
+}

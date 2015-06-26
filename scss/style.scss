@@ -3,21 +3,26 @@
 // Vendor CSS
 @import "vendor/bootstrap.min";
 @import "vendor/bootstrap-theme";
+@import "vendor/font-awesome.scss";
 
 
 // Load helpers
 @import "helpers/clearfix";
 
+// Load core
+@import "core/reset";
+@import "core/typography";
+@import "core/media-querie";
+@import "core/base";
+
+
 // Load modules files
 @import "modules/header";
 @import "modules/menu";
+@import "modules/content";
 @import "modules/footer";
 
 // Load all pages
 @import "pages/index";
 @import "pages/about";
 
-// Load core
-@import "core/reset";
-@import "core/typography";
-@import "core/media-querie";
