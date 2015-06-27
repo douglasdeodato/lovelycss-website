@@ -1,5 +1,21 @@
 /*********************************************************************
 *  =content
 *********************************************************************/
+/*********************************************************************
+*  =readme
+
+hc = heart-color
+bbc = button-background-color
+
+*********************************************************************/
+.download {
+  padding: 20px 0; }
+
+.download .container {
+  background-color: #fff; }
+
+.btn-lovely {
+  color: #fff;
+  background-color: #f48e9c; }
 
 /*# sourceMappingURL=content.css.map */

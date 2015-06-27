@@ -23,11 +23,24 @@ $bc = base color;
 .jumbotron h1, .jumbotron .h1 .logo {
   font-size: 20em;
   /* 320px ÷ 16px */
-  line-height: 1.3125em;
-  /* 42px ÷ 32px */
+  line-height: 0.13em;
+  /* 42px ÷ 320px */
+  margin-bottom: 0.25em;
+  /* no rules for the moment*/
   color: #fff; }
 
 .jumbotron {
   background-color: #f48e9c; }
+
+.jumbotron .container {
+  text-align: center;
+  vertical-align: middle; }
+
+.jumbotron .container p {
+  color: #fff; }
+
+.jumbotron .container .text {
+  width: 70%;
+  margin: 0 auto 30px; }
 
 /*# sourceMappingURL=header.css.map */

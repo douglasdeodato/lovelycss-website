@@ -1,10 +1,15 @@
 /*******************************************************************************
-*  Media Query » screen equal or less than 480px
+*  Media Query » screen equal or less than 480px,767px,840px,960px,1024px
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {} /*/mediaquery*/
 
-@media screen and (max-width: 767px) {} /*/mediaquery*/
+@media screen and (max-width: 767px) {
+	.jumbotron h1, .jumbotron .h1 .logo {
+		font-size: 8em;
+	}
+
+} /*/mediaquery*/
 
 @media screen and (max-width: 840px)  {} /*/mediaquery*/
 

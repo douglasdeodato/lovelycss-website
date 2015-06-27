@@ -1,8 +1,11 @@
 @charset "UTF-8";
 /*******************************************************************************
-*  Media Query » screen equal or less than 480px
+*  Media Query » screen equal or less than 480px,767px,840px,960px,1024px
 *******************************************************************************/
 /*/mediaquery*/
+@media screen and (max-width: 767px) {
+  .jumbotron h1, .jumbotron .h1 .logo {
+    font-size: 8em; } }
 /*/mediaquery*/
 /*/mediaquery*/
 /*/mediaquery*/

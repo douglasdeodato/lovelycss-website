@@ -7519,6 +7519,70 @@ button.close {
   visibility: hidden; }
 
 /*********************************************************************
+*  =Header
+
+legend:
+$bc = base color;
+*********************************************************************/
+.navbar-lovelycss {
+  background-color: #9e525f;
+  background-repeat: repeat-x; }
+
+.logo-lovelycss {
+  color: #fff;
+  padding: 15px 15px;
+  float: left; }
+
+.ls-2x {
+  font-size: 0.8em; }
+
+.fa-heart {
+  color: #9e525f; }
+
+.jumbotron h1, .jumbotron .h1 .logo {
+  font-size: 20em;
+  /* 320px ÷ 16px */
+  line-height: 0.13em;
+  /* 42px ÷ 320px */
+  margin-bottom: 0.25em;
+  /* no rules for the moment*/
+  color: #fff; }
+
+.jumbotron {
+  background-color: #f48e9c; }
+
+.jumbotron .container {
+  text-align: center;
+  vertical-align: middle; }
+
+.jumbotron .container p {
+  color: #fff; }
+
+.jumbotron .container .text {
+  width: 70%;
+  margin: 0 auto 30px; }
+
+/*********************************************************************
+*  =content
+*********************************************************************/
+/*********************************************************************
+*  =readme
+
+hc = heart-color
+bbc = button-background-color
+
+*********************************************************************/
+.download {
+  padding: 20px 0; }
+
+.download .container {
+  background-color: #fff; }
+
+.btn-lovely {
+  color: #fff;
+  background-color: #f48e9c; }
+
+/*********************************************************************
 *  =Reset
 *
 *  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
@@ -7553,9 +7617,12 @@ footer, header, hgroup, menu, nav, section {
 *  =fonts
 *********************************************************************/
 /*******************************************************************************
-*  Media Query » screen equal or less than 480px
+*  Media Query » screen equal or less than 480px,767px,840px,960px,1024px
 *******************************************************************************/
 /*/mediaquery*/
+@media screen and (max-width: 767px) {
+  .jumbotron h1, .jumbotron .h1 .logo {
+    font-size: 8em; } }
 /*/mediaquery*/
 /*/mediaquery*/
 /*/mediaquery*/
@@ -7564,7 +7631,7 @@ footer, header, hgroup, menu, nav, section {
 *  =Main Definitions
 *********************************************************************/
 body {
-  background-color: #f0efed;
+  background-color: #fff;
   /*
    * 100% = 16px  browsers default
    * 21px ÷ 16px = 1.5em
@@ -7600,40 +7667,5 @@ h2 {
 
 h2 ~ h2 {
   padding-top: 40px; }
-
-/*********************************************************************
-*  =Header
-
-legend:
-$bc = base color;
-*********************************************************************/
-.navbar-lovelycss {
-  background-color: #9e525f;
-  background-repeat: repeat-x; }
-
-.logo-lovelycss {
-  color: #fff;
-  padding: 15px 15px;
-  float: left; }
-
-.ls-2x {
-  font-size: 0.8em; }
-
-.fa-heart {
-  color: #9e525f; }
-
-.jumbotron h1, .jumbotron .h1 .logo {
-  font-size: 20em;
-  /* 320px ÷ 16px */
-  line-height: 1.3125em;
-  /* 42px ÷ 32px */
-  color: #fff; }
-
-.jumbotron {
-  background-color: #f48e9c; }
-
-/*********************************************************************
-*  =content
-*********************************************************************/
 
 /*# sourceMappingURL=style.css.map */

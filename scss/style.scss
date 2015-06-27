@@ -9,11 +9,7 @@
 // Load helpers
 @import "helpers/clearfix";
 
-// Load core
-@import "core/reset";
-@import "core/typography";
-@import "core/media-querie";
-@import "core/base";
+
 
 
 // Load modules files
@@ -26,3 +22,8 @@
 @import "pages/index";
 @import "pages/about";
 
+// Load core
+@import "core/reset";
+@import "core/typography";
+@import "core/media-querie";
+@import "core/base";
