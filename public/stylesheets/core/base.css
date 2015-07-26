@@ -17,7 +17,7 @@ ul {
 h1, h2 {
   font-style: normal;
   font-weight: normal;
-  font-family: "enriqueta", serif; }
+  font-family: "cabin", serif; }
 
 h1 {
   font-size: 2em;
@@ -28,16 +28,26 @@ h1 {
   /* 16px ÷ 32px */ }
 
 h2 {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1.75em;
   /* 28px ÷ 16px */
   line-height: 1.285714286em;
   /* 36px ÷ 28px */
-  color: #659ec2;
+  color: #9e525f;
   margin-bottom: .785714286em;
   /* 22px ÷ 28px */ }
 
 h2 ~ h2 {
   padding-top: 40px; }
+
+p {
+  color: #f48e9c; }
+
+.text {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 21px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=base.css.map */

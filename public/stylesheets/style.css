@@ -7519,6 +7519,105 @@ button.close {
   visibility: hidden; }
 
 /*********************************************************************
+*  =Reset
+*
+*  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+*  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+*  html5doctor.com/html-5-reset-stylesheet/
+*********************************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li, a,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/*********************************************************************
+*  =fonts
+*********************************************************************/
+/*******************************************************************************
+*  Media Query » screen equal or less than 480px,767px,840px,960px,1024px
+*******************************************************************************/
+/*/mediaquery*/
+@media screen and (max-width: 767px) {
+  .jumbotron h1, .jumbotron .h1 .logo {
+    font-size: 8em; }
+
+  .jumbotron .container .text {
+    width: 100%; } }
+/*/mediaquery*/
+/*/mediaquery*/
+/*/mediaquery*/
+/*/mediaquery*/
+/*********************************************************************
+*  =Main Definitions
+*********************************************************************/
+body {
+  background-color: #fff;
+  /*
+   * 100% = 16px  browsers default
+   * 21px ÷ 16px = 1.5em
+   */
+  font: normal normal 100%/1.5em "cabin", sans-serif;
+  color: #263640; }
+
+ul {
+  list-style-type: none; }
+
+h1, h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "cabin", serif; }
+
+h1 {
+  font-size: 2em;
+  /* 32px ÷ 16px */
+  line-height: 1.3125em;
+  /* 42px ÷ 32px */
+  margin-bottom: .5em;
+  /* 16px ÷ 32px */ }
+
+h2 {
+  font-weight: 400;
+  font-size: 1.75em;
+  /* 28px ÷ 16px */
+  line-height: 1.285714286em;
+  /* 36px ÷ 28px */
+  color: #9e525f;
+  margin-bottom: .785714286em;
+  /* 22px ÷ 28px */ }
+
+h2 ~ h2 {
+  padding-top: 40px; }
+
+p {
+  color: #f48e9c; }
+
+.text {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 21px;
+  margin-bottom: 20px; }
+
+/*********************************************************************
 *  =Header
 
 legend:
@@ -7581,91 +7680,5 @@ bbc = button-background-color
 .btn-lovely {
   color: #fff;
   background-color: #f48e9c; }
-
-/*********************************************************************
-*  =Reset
-*
-*  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
-*  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
-*  html5doctor.com/html-5-reset-stylesheet/
-*********************************************************************/
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li, a,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent; }
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-/*********************************************************************
-*  =fonts
-*********************************************************************/
-/*******************************************************************************
-*  Media Query » screen equal or less than 480px,767px,840px,960px,1024px
-*******************************************************************************/
-/*/mediaquery*/
-@media screen and (max-width: 767px) {
-  .jumbotron h1, .jumbotron .h1 .logo {
-    font-size: 8em; } }
-/*/mediaquery*/
-/*/mediaquery*/
-/*/mediaquery*/
-/*/mediaquery*/
-/*********************************************************************
-*  =Main Definitions
-*********************************************************************/
-body {
-  background-color: #fff;
-  /*
-   * 100% = 16px  browsers default
-   * 21px ÷ 16px = 1.5em
-   */
-  font: normal normal 100%/1.5em "cabin", sans-serif;
-  color: #263640; }
-
-ul {
-  list-style-type: none; }
-
-h1, h2 {
-  font-style: normal;
-  font-weight: normal;
-  font-family: "enriqueta", serif; }
-
-h1 {
-  font-size: 2em;
-  /* 32px ÷ 16px */
-  line-height: 1.3125em;
-  /* 42px ÷ 32px */
-  margin-bottom: .5em;
-  /* 16px ÷ 32px */ }
-
-h2 {
-  font-weight: bold;
-  font-size: 1.75em;
-  /* 28px ÷ 16px */
-  line-height: 1.285714286em;
-  /* 36px ÷ 28px */
-  color: #659ec2;
-  margin-bottom: .785714286em;
-  /* 22px ÷ 28px */ }
-
-h2 ~ h2 {
-  padding-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,10 @@
 /*/mediaquery*/
 @media screen and (max-width: 767px) {
   .jumbotron h1, .jumbotron .h1 .logo {
-    font-size: 8em; } }
+    font-size: 8em; }
+
+  .jumbotron .container .text {
+    width: 100%; } }
 /*/mediaquery*/
 /*/mediaquery*/
 /*/mediaquery*/
