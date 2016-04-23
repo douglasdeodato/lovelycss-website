@@ -38,8 +38,8 @@ module.exports = function  (grunt) {
 				//Watch ===============================
 				config.watch = {
 					 scripts: {
-					 	files: ["<%= src.libFolder %>", "<%= src.sassFolder %>"]
-					 	,tasks: ["dev", "sass:dist"]
+					 	files: ["<%= src.sassFolder %>"]
+					 	,tasks: ["sass:dist"]
 					 }
 				}
 	
