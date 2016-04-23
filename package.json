@@ -1,0 +1,29 @@
+{
+  "name": "lovelycss-website",
+  "version": "1.0.0",
+  "description": "lovely css It is an Object Oriented CSS (OOCSS), clean and organised SCSS Structure to help developers starting a web project from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasdeodato/lovelycss-website.git"
+  },
+  "keywords": [
+    "lovely",
+    "css"
+  ],
+  "author": "douglas deodato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasdeodato/lovelycss-website/issues"
+  },
+  "homepage": "https://github.com/douglasdeodato/lovelycss-website#readme",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
