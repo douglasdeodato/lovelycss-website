@@ -11,7 +11,7 @@
 // Load core
 @import "core/reset";
 @import "core/typography";
-@import "core/media-querie";
+
 @import "core/base";
 
 // Load modules files
@@ -23,3 +23,7 @@
 // Load all pages
 @import "pages/index";
 @import "pages/about";
+
+
+//media querie
+@import "core/media-querie";
