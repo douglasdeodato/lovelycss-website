@@ -2,4 +2,30 @@
 *  =fonts
 *********************************************************************/
 
-@import url(../../fonts/stylesheet.css);
+// @import url(../../fonts/stylesheet.css);
+
+
+
+@charset "UTF-8";
+
+// Default Variables
+
+$lovelycss-font-path: "../fonts" !default;
+
+
+@font-face {
+  font-family: 'opensans';
+  src: url('#{$lovelycss-font-path}/cabin/Cabin-Bold-webfont.eot');
+  src: url('#{$lovelycss-font-path}/cabin/Cabin-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('#{$lovelycss-font-path}/cabin/Cabin-Bold-webfont.woff') format('woff'),
+    url('#{$lovelycss-font-path}/cabin/Cabin-Bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// test
+.font-test-class {
+    font-family: $font-family-site ;
+}
